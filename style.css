@@ -1,0 +1,99 @@
+body {
+    font-family: 'Jua', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+#navbar {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#logo {
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 40px;
+    
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.menu li {
+    float: left;
+    margin-right: 30px;
+}
+.menu li:hover {
+    font-weight: bold;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.icons {
+    width: 30px;
+    height: 30px;
+}
+.icons:hover {
+    filter: drop-shadow(1px 1px 1px #000);
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.profile {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(211, 227, 229);
+    width: 60%;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+.profileimage {
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+#introduce h1 {
+    margin-left: 50px;
+    font-size: 3rem;
+}
+#introduce p {
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+#introduce a {
+    text-decoration: none;
+    color: black;
+}
+#introduce a:hover {
+    font-weight: bold;
+}
+#profile h2 {
+    margin-left: 80px;
+}
+#profile ul {
+    margin-top: 20px;
+}
+.skill {
+    display: flex;
+}
